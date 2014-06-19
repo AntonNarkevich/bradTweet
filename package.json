@@ -1,0 +1,24 @@
+{
+  "name": "findOut",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonNarkevich/findOut.git"
+  },
+  "author": "Gryffindor team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonNarkevich/findOut/issues"
+  },
+  "homepage": "https://github.com/AntonNarkevich/findOut"
+}

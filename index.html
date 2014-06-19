@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+
+	<script type="text/javascript" src="lib/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.js"></script>
+	<script type="text/javascript" src="lib/bootstrap-tooltip.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<link rel="stylesheet" href="lib/bootstrap.css"/>
+	<link rel="stylesheet" href="less/index.css"/>
+</head>
+<body>
+
+<div class="container offer">
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+			<div class="offer-logo-block">
+				<img class="offer-logo" src="img/logo.png" alt="Find out!"/>
+			</div>
+
+			<div class="offer-nav offer-form-row">
+				<div class="offer-nav-item offer-nav-item-active">I want</div>
+				<a href="brad-1.html" class="offer-nav-item offer-nav-item-map">Map</a>
+			</div>
+
+			<form class="offer-form" action="/">
+				<div class="row offer-form-2-col-row">
+					<div class="offer-input-label col-sm-6">I am a</div>
+					<div class="offer-input-label col-sm-6">And I want</div>
+				</div>
+
+				<div class="row offer-form-row offer-form-2-col-row">
+					<div class="col-sm-6">
+						<select name="gender" id="gender">
+							<option value="man">man</option>
+							<option value="woman">woman</option>
+						</select>
+					</div>
+					<div class="col-sm-6">
+						<select name="purpose" id="purpose">
+							<option value="">a date</option>
+							<option value="">more friends</option>
+							<option value="">a business meeting</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="offer-activity-block row offer-form-row">
+					<div class="col-sm-12">
+						<div class="offer-input-label">
+							To
+						</div>
+						<div class="has-feedback">
+							<input id="activity" type="text" placeholder="#walk under the moon..."
+								   data-toggle="tooltip"
+								   data-placement="top"
+								   title="We need +1 activity tag. Such as #coffee, #beer, #walking"/>
+
+							<span class="glyphicon glyphicon-question-sign form-control-feedback"></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="row offer-form-row offer-form-notice-block">
+					<div class="col-sm-12">
+						<div class="offer-input-label">
+							Or in details
+						</div>
+						<div>
+							<textarea
+									placeholder="It's going to be a romantic date. Kindness. That's what like in people..."
+									id="more-info" cols="30" rows="10"></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="row offer-form-row">
+					<div class="col-sm-12">
+						<a id="tell-button" class="offer-tweet-button btn btn-primary" href="#">
+							Tell the world!
+						</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

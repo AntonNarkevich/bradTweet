@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="lib/bootstrap.css"/>
+	<script type="text/javascript"
+			src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_MAPS_KEY">
+	</script>
+    <script type="text/javascript" src="lib/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="lib/markerwithlabel.js"></script>
+	<script type="text/javascript" src="js/maps.js"></script>
+
+	<link rel="stylesheet" href="less/maps.css"/>
+</head>
+<body>
+
+<div class="container single-offer">
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2">
+            <div class="offer-logo-block">
+                <img class="offer-logo" src="img/logo.png" alt="Find out!"/>
+            </div>
+
+            <div class="offer-nav offer-form-row">
+                <a href="/" class="offer-nav-item">I want</a>
+                <a href="#" class="offer-nav-item  offer-nav-item-active">Map</a>
+            </div>
+
+            <div class="slide-container">
+                <div class="slide slide-active">
+                    <h1 class="text-center">Why don't you go with Brad?</h1>
+
+
+                    <img class="avatar" src="//pbs.twimg.com/profile_images/1245711286/Brad_Pitt_400x400.jpg" alt=""/>
+                    <div class="offer-info">
+                        <p><span class="name">Brad:</span> Hey girls. I'm a handsome guy. Desperately want to find a girl of my dream.</p>
+                        <p class="meta"><a href="#"><img src="img/time.png" alt=""/> minute ago</a> <a href="#" class="hash"><img src="img/hash.png" alt=""/> coffee</a></p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <h1 class="text-center">Why don't you go with Mary?</h1>
+
+
+                    <img class="avatar" src="//pbs.twimg.com/profile_images/472510517123088384/nX8Vm8Sv_400x400.jpeg" alt=""/>
+                    <div class="offer-info">
+                        <p><span class="name">Mary:</span> Cute girl. Waiting for a real man. Let's go to cinema? Maybe theater?</p>
+                        <p class="meta"><a href="#"><img src="img/time.png" alt=""/> 5 minutes ago</a> <a href="#" class="hash"><img src="img/hash.png" alt=""/> theater</a></p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <h1 class="text-center">Why don't you go with Emma?</h1>
+
+
+                    <img class="avatar" src="//pbs.twimg.com/profile_images/456871669085114369/i9uqbJa9_400x400.jpeg" alt=""/>
+                    <div class="offer-info">
+                        <p><span class="name">Emma:</span> Want to finally watch "X-MAN". I was waiting for the movie for too long. This day finally come!</p>
+                        <p class="meta"><a href="#"><img src="img/time.png" alt=""/> 10 minutes ago</a> <a href="#" class="hash"><img src="img/hash.png" alt=""/> cinema</a></p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <h1 class="text-center">Why don't you go with Daniel?</h1>
+
+
+                    <img class="avatar" src="//pbs.twimg.com/profile_images/463089630934339584/S7g1a_i2_400x400.jpeg" alt=""/>
+                    <div class="offer-info">
+                        <p><span class="name">Daniel:</span> Today I just want some beer. Just a beer and maybe football will make my life much better.</p>
+                        <p class="meta"><a href="#"><img src="img/time.png" alt=""/> 20 minutes ago</a> <a href="#" class="hash"><img src="img/hash.png" alt=""/> beer</a></p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <h1 class="text-center">Why don't you go with Kate?</h1>
+
+
+                    <img class="avatar" src="//pbs.twimg.com/profile_images/478274839867031552/3hUN1JZw_400x400.jpeg" alt=""/>
+                    <div class="offer-info">
+                        <p><span class="name">Kate:</span> A lot of alhcohol was done yesterday! Rather more will be drunken tomorrow! Wanna vodka, tequilla, anything we get.</p>
+                        <p class="meta"><a href="#"><img src="img/time.png" alt=""/> 30 minutes ago</a> <a href="#" class="hash"><img src="img/hash.png" alt=""/> bowling</a></p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <h1 class="text-center">Why don't you go with Kim?</h1>
+
+
+                    <img class="avatar" src="//pbs.twimg.com/profile_images/2344348679/d7fhjj1t1mms16iq0m1p_400x400.jpeg" alt=""/>
+                    <div class="offer-info">
+                        <p><span class="name">Kim:</span> I'm loving shopping, don't remember when i did it last time. Who with me?</p>
+                        <p class="meta"><a href="#"><img src="img/time.png" alt=""/> hour ago</a> <a href="#" class="hash"><img src="img/hash.png" alt=""/> shopping</a></p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <h1 class="text-center">Why don't you go with April?</h1>
+
+
+                    <img class="avatar" src="//pbs.twimg.com/profile_images/471397664391577600/Y8iSCqJd_bigger.jpeg" alt=""/>
+                    <div class="offer-info">
+                        <p><span class="name">April:</span> Today I'm lonely. But only today! Hey boys. Don't loose your chance. Honestly, I'm a princess.</p>
+                        <p class="meta"><a href="#"><img src="img/time.png" alt=""/> 2 hours ago</a> <a href="#" class="hash"><img src="img/hash.png" alt=""/> dating</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+            <div class="text-center">
+                <a href="#" id="reply-btn" class="reply-btn offer-tweet-button btn btn-primary">I want yo go with you!</a>
+                <a href="/" class="offer-tweet-button btn btn-default">Propose another activity!</a>
+            </div>
+
+            <h3 class="text-center">Find on a map</h3>
+            <div class="clearfix"></div>
+            <div class="map-wrapper"><div id="map-canvas"></div></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

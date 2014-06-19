@@ -1,0 +1,116 @@
+@thereColor: #8FBAD2;
+@inputHeight: 42px;
+
+.theme-order-radius() {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+body {
+    font-size: 20px;
+    background:url(../img/bg.jpg) no-repeat 0 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.offer {
+	margin-top: 130px;
+}
+
+.offer-logo-block {
+	margin-bottom: 30px;
+}
+
+.offer-activity-block .form-control-feedback {
+	top: 4px !important;
+}
+
+.glyphicon {
+	color: darken(@thereColor, 20%);
+}
+
+.offer-logo {
+	margin: 0 auto;
+	display: block;
+}
+
+.offer-nav {
+	border: 1px solid @thereColor;
+	.theme-order-radius();
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.offer-nav-item {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	padding: 7px 0;
+	color: @thereColor;
+
+	&:hover {
+		color: @thereColor;
+		text-decoration: none;
+	}
+}
+
+.offer-nav-item-active {
+	background: @thereColor;
+	color: white;
+
+
+	&:hover {
+		color: white;
+	}
+}
+
+.offer-form-row {
+	margin-bottom: 20px;
+}
+
+.offer-form-2-col-row {
+	.col-sm-6:last-child {
+		padding-left: 0 !important;
+	}
+}
+
+.offer-input-label {
+	font-size: 18px;
+}
+
+.offer-form {
+	input,
+	select,
+	textarea {
+		.theme-order-radius();
+		display: block;
+		width: 100%;
+		height: @inputHeight;
+		border: 1px solid @thereColor;
+		color: @thereColor;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 0 10px;
+	}
+
+	textarea {
+		height: 90px;
+	}
+}
+
+.offer-form-notice-block {
+	margin-bottom: 40px;
+}
+
+.offer-tweet-button {
+	display: block;
+	background: @thereColor;
+	border: none;
+	height: @inputHeight;
+	line-height: 30px;
+	font-size: 18px;
+}
+
